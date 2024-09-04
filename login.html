@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login - Ecommerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+
+    <!-- Font-awesome CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fw-semibold sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="" src="assets/img/rsz_1logo n.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a class="btn btn-outline-primary" href="signup.html">Sign Up</a>
+                        <a class="btn btn-outline-primary" href="login.html">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Sign Up Section Start -->
+    <section id="sign-up" class="py-5">
+        <section class="sign-up container ">
+            <div class="col-6 offset-3 py-md-5">
+                <div class="title text-center mb-4">
+                    <h1 class="h1">Login</h1>
+                </div>
+                <form method="get" class="row g-3">
+                    <div class="col-md-6">
+                        <label for="fisrtName" class="form-label">First Name</label>
+                        <input type="text" name="fisrtName"  class="form-control" id="fisrtName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" name="lastName"  class="form-control" id="lastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" name="phone"  class="form-control" id="phone">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" name="inputEmail4"  class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" name="inputPassword4"  class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="userName" class="form-label">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" name="userName"  class="form-control" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </section>
+    <!-- Sign Up Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="py-2 mt-2 text-center bg-dark text-light fixed-bottom">
+        <p class="m-0">
+            &copy; 2024 All Rights Reserved
+        </p>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

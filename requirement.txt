@@ -11,7 +11,7 @@ Create a Ecommerce website with 5 Page
 2. Product Page:
 	a. breadcrumb
 	b. Categories (Accordion) - left-pan
-	c. Products row - using bootstrap card) - right-pan
+	c. Products row - (using bootstrap card) - right-pan
 3. Product-Detail Page:
 	a. breadcrumb
 	b. Image zoom - left-pan
